@@ -9,3 +9,9 @@ Usefull commands. Tip and tricks
 3. Intall SvelteKit component
 
 `echo "Enter project name" && read project_name && npm create svelte@latest $project_name && cd $project_name && npm i`
+
+
+## Add Tailwind
+1. Install
+`npm install -D tailwindcss postcss autoprefixer svelte-preprocess &&  npx tailwindcss init tailwind.config.cjs -p && code . && exit`
+2. Project template is here
