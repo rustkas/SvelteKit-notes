@@ -14,4 +14,9 @@ Usefull commands. Tip and tricks
 ## Add Tailwind
 1. Install
 `npm install -D tailwindcss postcss autoprefixer svelte-preprocess &&  npx tailwindcss init tailwind.config.cjs -p && code . && exit`
-2. Project template is here
+2. Project template is here `templates\sveltekit-tailwind`
+
+# Add DaisyUI
+1. Install
+`npm i daisyui`
+2. Project template is here `templates\sveltekit-tailwind-dausyui`
