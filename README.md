@@ -8,7 +8,11 @@ Usefull commands. Tip and tricks
 3. Go to project folder.
 3. Intall SvelteKit component
 
+### Linux
 `echo "Enter project name" && read project_name && npm create svelte@latest $project_name && cd $project_name && npm i`
+
+### Windows 11
+`echo "Enter project name" ; read project_name ; npm create svelte@latest $project_name ; cd $project_name ; npm i`
 
 
 ## Add Tailwind
