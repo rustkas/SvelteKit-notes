@@ -13,7 +13,7 @@ Usefull commands. Tip and tricks
 
 ### Windows 11
 
-`set /p "id=Enter project name: " ; npm create svelte@latest %project_name% ; cd %project_name% ; npm i`
+`set "project_name=" && set /p "project_name=Enter project name: " && npm create svelte@latest %project_name% && cd %project_name% && npm i`
 
 
 ## Add Tailwind
