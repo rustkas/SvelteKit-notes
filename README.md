@@ -11,7 +11,7 @@ Usefull commands. Tip and tricks
 ### Linux
 `echo "Enter project name" && read project_name && npm create svelte@latest $project_name && cd $project_name && npm i`
 
-### Windows 11
+### Windows 11 (CMD)
 
 `set "project_name=" && set /p "project_name=Enter project name: " && npm create svelte@latest %project_name% && cd %project_name% && npm i`
 
