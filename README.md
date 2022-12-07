@@ -12,7 +12,8 @@ Usefull commands. Tip and tricks
 `echo "Enter project name" && read project_name && npm create svelte@latest $project_name && cd $project_name && npm i`
 
 ### Windows 11
-`echo "Enter project name" ; read project_name ; npm create svelte@latest $project_name ; cd $project_name ; npm i`
+
+`set /p "id=Enter project name: " ; npm create svelte@latest %project_name% ; cd %project_name% ; npm i`
 
 
 ## Add Tailwind
